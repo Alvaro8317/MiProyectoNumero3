@@ -1,0 +1,4 @@
+Para crear una rama -> git branch NombreDeLaRama
+Muestra detalles de los objetos Git -> git show
+Cambio de rama -> git checkout NombreDeLaRama
+Cambio de commit -> git checkout IDTicket ArchivoADevolver.txt

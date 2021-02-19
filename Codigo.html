@@ -2,10 +2,11 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML para subir con GIT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/Codigo.css"/>
 </head>
 <body>
-    <div id = "container">
+    <div id = "container" style="margin-top: 10px;">
         <div id=cabecera>
             Cabecera nueva, porque la anterior me la tiré 
             <!-- Recuerda que puedes usar git commit -am "" para hacer un add y un commit en una sola instrucción -->
@@ -16,6 +17,16 @@
                 Y este es un bonito parrafo
             </p>  
         </div>  
+        
     </div>
+    <button type ="button" class="btn btn-primary" id="Botoncito">No me oprimas</button>
+    <script>
+        var miBoton = document.getElementById("Botoncito");
+        miBoton.addEventListener("click",alerta);
+        function alerta()
+        {
+            alert("Oye mi perrooooooooooooooooo!!!! Oprimiste el botón, no oprimas botones así al azár, podrías causar una explosión con esa obsesión por los botones")
+        }
+    </script>
 </body>
 </html>
